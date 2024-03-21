@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Web App</title>
+<style>
+  /* Add CSS here if needed */
+  #message {
+    display: none;
+    color: #333;
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+
+<button id="myButton">Click me!</button>
+<div id="message">Hello, I've appeared because you clicked the button!</div>
+
+<script>
+  // Add JavaScript here
+  document.getElementById('myButton').addEventListener('click', function() {
+    document.getElementById('message').style.display = 'block';
+  });
+</script>
+
+</body>
+</html>
